@@ -203,7 +203,7 @@ if __name__ == '__main__':
     #psi = np.sin(x)
     v=np.zeros(1000)
     v[np.abs(x)>2] = 1.0  #0.5*x**2
-    s=Schrodinger(x,psi,v)
+    s=Schrodinger(x, psi, v)
     s.solve(0.001,max_iter=1e7)
     p.plot(x, s.psi_x * np.conj(s.psi_x))
     # for i in range(10000):
