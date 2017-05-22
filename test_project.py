@@ -1,6 +1,5 @@
 import numpy as np
-import scipy.fftpack
-import scipy.integrate
+import scipy
 import matplotlib.pyplot as plt
 from matplotlib import animation
 
